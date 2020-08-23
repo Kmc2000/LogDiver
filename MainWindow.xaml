@@ -1,0 +1,28 @@
+﻿<Window x:Class="LogDiver.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        Background="{DynamicResource MaterialDesignPaper}"
+        TextElement.FontSize="13"
+        FontFamily="{materialDesign:MaterialDesignFont}"
+        Icon="icon.ico"
+        mc:Ignorable="d"
+        Title="Log Diving Tool" Height="500" Width="1000">
+    <Grid Name="Parent">
+        
+        <TabControl Name="LogTabs">
+            <TabItem Header = "Search">
+                <StackPanel>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top">
+                        <TextBox Width="400" Height="25" Name = "Search" TextChanged="OnSearch"></TextBox>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Name = "SearchBox"></StackPanel>
+                    <ListView MaxHeight="400" MinHeight="200" Name="Results" Visibility="Hidden"></ListView>
+                </StackPanel>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

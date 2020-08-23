@@ -1,0 +1,34 @@
+{
+  "version": 2,
+  "dgSpecHash": "Nj4cJ2cpKZI3F57Ro1pU79pneW4Dv/ACDqsOFQHYDrD/I2OMZS9W6b3SJeyyJZEzPotUz+Zsrln32ryFXQv7Tw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\kmabb\\OneDrive\\Documents\\GitHub\\LogDiver\\LogDiver\\LogDiver\\LogDiver.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kmabb\\.nuget\\packages\\materialdesigncolors\\1.2.7-ci1883\\materialdesigncolors.1.2.7-ci1883.nupkg.sha512",
+    "C:\\Users\\kmabb\\.nuget\\packages\\materialdesignthemes\\3.2.0-ci1883\\materialdesignthemes.3.2.0-ci1883.nupkg.sha512",
+    "C:\\Users\\kmabb\\.nuget\\packages\\windowsapicodepack-core\\1.1.1\\windowsapicodepack-core.1.1.1.nupkg.sha512",
+    "C:\\Users\\kmabb\\.nuget\\packages\\windowsapicodepack-shell\\1.1.1\\windowsapicodepack-shell.1.1.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'WindowsAPICodePack-Core 1.1.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "WindowsAPICodePack-Core",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'WindowsAPICodePack-Shell 1.1.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "WindowsAPICodePack-Shell",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}
